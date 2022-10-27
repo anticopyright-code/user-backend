@@ -10,7 +10,7 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const app = express();
 
 var corsOptions = {
-    origin: "http://localhost:8080"
+    origin: "https://astonishing-donut-762e0d.netlify.app"
 };
 
 app.use(cors(corsOptions));
